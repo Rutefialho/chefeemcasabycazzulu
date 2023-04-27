@@ -1,16 +1,19 @@
  /* Estilos de elementos */
  body {
-    padding: 5px 60px;
+    padding: 10px 60px;
     background-color: beige;
 }
 header {
-    padding: 15px;
+    /* border: 1px solid red; */
+    padding: 5px;
 }
 header > div {
-    width: 50%;
+    width: 100%;
 }
 h2 {
     margin-top: 20px;
+    font-style: italic;
+    font-size: xx-large;
 }
 section {
     padding-top: 30px;
@@ -18,7 +21,7 @@ section {
 
 /* Classes para elementos especificos */
 div.topbar {
-    /* border: 1px solid red; */
+   /* border: 1px solid red; */
     padding: 15px;
 }
 ul.nav {
@@ -36,16 +39,28 @@ div.testemunho {
 }
 div.perguntas {
     text-align: left;
+    padding-bottom: 20px;
 }
 a.semlinha {
     text-decoration: none;
 }
-
+h3 {
+    color:rgb(48, 162, 48);
+    line-height: 5px;
+    margin-block-start: 30px;
+    font-size: medium;
+    text-decoration: none;
+}
+h4 {
+    color: rgb(48, 162, 48);
+    text-decoration: none;
+}
 
 /* Estilos para elementos unicos (id) */
 #logo {
     width: 50px;
 }
+
 
 /* Classes para qualquer elemento */
 .w40 {
@@ -65,9 +80,9 @@ a.semlinha {
     padding-right: 20px;
 }
 .bred {
-    border: 1px solid red;
+    border: 1px solid blue;
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 640px) and (max-width: 768px) and (max-width: 1024px) and (max-width: 1280px){
     body {
         padding: 2px;
     }
